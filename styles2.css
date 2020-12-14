@@ -1,0 +1,265 @@
+* {
+	box-sizing: border-box;
+	
+}
+.row {
+	width: 100%;
+	margin: 0;
+}
+body {
+	background-image: url("pics/bg/anbg.jpg");
+	opacity: 90%;
+	background-position: center;
+	background-size: cover;
+}
+
+
+nav {
+	/* background:url(post.png); */
+	background-color:#021c1d;	
+    
+	
+}
+.navbar-brand
+{	font-family: 'Frijole', cursive;
+	font-size: 4vw;
+	color:white;
+	vertical-align: bottom;
+}
+#logo {
+	width: 18%;
+}
+p {
+	padding: 0;
+	margin: 0;
+}
+.navbar-dark .navbar-toggler{
+	color: white;
+	border-color: white;
+}
+.brand-name {
+	font-family: 'Frijole', cursive;
+	color: white;
+	font-size: 3vw;
+	
+}
+.navbar-header {
+	line-height: 1;
+}
+.active {
+	text-shadow: 1px 1px 10px white;
+}
+
+.navbar-dark .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-dark .navbar-nav .nav-link{position: relative;
+	font-size: 24px;
+	text-align: center;
+	color: white;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: 1px;
+	
+}
+hr {display: inherit;
+	background-color: white;
+	width:70%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+	
+#heading {
+	padding-top: 30px;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Special Elite', cursive;
+	font-weight: bold;
+	color: white;
+	text-shadow: 1px 1px 6px white;
+}
+.w{
+	/* border: 2px solid black; */
+margin-bottom: 20px;
+margin-top: 20px;
+	height: 230px;
+
+
+}
+.row .game-icon {
+	height: 165px;
+	max-height: 165px;
+	border-radius: 5px;
+	/* border: 2px solid red; */
+
+
+} 
+
+
+
+/* game cover photo */
+#pubg {
+    background-image: url('pics/PUBG_Mobile.jpg');
+	background-size:cover;
+	background-position: center;
+}
+#cod {
+    background-image: url('pics/cod-mobile.jpg');
+	background-size:cover;
+	background-position: center;
+}
+#coc {
+    background-image: url('pics/coc.jpg');
+	background-size:cover;
+	background-position: center;
+}
+#us {
+    background-image: url('pics/amongus.jpg');
+	background-size:cover;
+	background-position: center;
+}
+#pes {
+    background-image: url('pics/pes.jpg');
+	background-size:cover;
+	background-position: center;
+}
+#mm {
+    background-image: url('pics/mm.jpg');
+	background-size:cover;
+	background-position: center;
+}
+#ff {
+    background-image: url('pics/ff1.jpg');
+	background-size:cover;
+	background-position: center;
+}
+#gta {
+    background-image: url('pics/gta.jpg');
+	background-size:cover;
+	background-position: center;
+}
+#nfs {
+    background-image: url('pics/nfs.png');
+	background-size:cover;
+	background-position: center;
+}
+.col-6 {
+	/* border: 2px solid blue; */
+	height: 230px;
+}
+.cover {
+	padding-bottom: 0;
+	padding: 4px;
+	box-shadow: 1px 1px 8px 2px black;
+	border-radius: 5px;
+	/* border:2px solid green; */
+	background-color: white;
+}
+.game-name {
+	/* border: 2px solid yellow; */
+	text-align: center;
+	font-family: "Roboto",sans-serif;
+	letter-spacing: 1px;
+}
+.row .w .inst-btn {
+	position: relative;
+	background:#689f38;
+	font-family: "Roboto",sans-serif;
+	font-size: 15px;
+	height: 25px;
+	width: 80%;
+	font-weight: 500;
+	color: white;
+	text-align: center;
+	border-radius: 3px;
+	/* padding-top: 3px; */
+	transition:  width 0.5s,height 0.5s,font-size 0.5s;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+a:link, a:visited {
+	color:white;
+	text-decoration: none;
+	cursor: pointer;
+  }
+.row .w .inst-btn:hover {
+	box-shadow: 1px 1px 5px 0.5px black;
+	font-size: 20px;
+	width: 100%;
+	height: 30px;
+}
+.col-6 .more-btn {
+    position: absolute;
+	background: #689f38;
+	font-family: "Roboto",sans-serif;
+	color: white;
+	font-size: 8px;
+	height: 20px;
+	padding-top:3px;
+	bottom: 5px;
+	width: 25%;
+	transition: height 0.5s,font-size 0.5s,width 0.5s;
+}
+.col-6 .more-btn:hover {
+	box-shadow: 1px 1px 5px 0.5px black;
+	color: white;
+	height: 25px;
+	font-size: 10px;
+	width: 30%;
+}
+.col-6 .game-des {
+	padding-top: 10px;
+	font-size: 0.7em;
+	text-align:center;
+	color: white;
+	overflow: hidden;
+	max-height: 160px;
+}
+.modal-header {
+	background-color: #689f38;
+	color: white;
+
+}
+.modal-body li {
+	font-family: "Roboto",sans-serif;
+    display: block;
+	font-weight: bold;
+	float: left;
+	padding: 20px;
+	
+}
+.modal-body li span {
+	font-weight: normal;
+}
+.panel-footer {
+	position: relative;
+	background:black;
+	bottom: 0;
+	
+	width: 100%;
+}
+.handle {
+	/* border: 3px solid white; */
+	padding-top: 20px;
+	padding-left: 0;
+}
+.cu {
+	display: block;
+	color:white;
+
+	font-family: 'Special Elite', cursive;
+	font-size: 14px;
+	text-align: center;
+}
+.cu img {
+	margin-right: 8px;
+	margin-bottom: 11px;
+     width:20px;
+	height:20px;
+	
+}
+#fl {
+	margin-bottom: 20px;
+	border: 2px solid white;
+	border-radius: 10px;
+}
